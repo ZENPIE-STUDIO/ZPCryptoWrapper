@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27832DDC27B395FF00E0C6FD /* ZPCryptoWrapper.docc in Sources */ = {isa = PBXBuildFile; fileRef = 27832DDB27B395FF00E0C6FD /* ZPCryptoWrapper.docc */; };
+		27832DE227B3960000E0C6FD /* ZPCryptoWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */; };
+		27832DE727B3960000E0C6FD /* ZPCryptoWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27832DE627B3960000E0C6FD /* ZPCryptoWrapperTests.m */; };
+		27832DE827B3960000E0C6FD /* ZPCryptoWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 27832DDA27B395FF00E0C6FD /* ZPCryptoWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279ED70B27B4A6CA008705DC /* ZPRsaCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 279ED70927B4A6CA008705DC /* ZPRsaCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279ED70C27B4A6CA008705DC /* ZPRsaCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED70A27B4A6CA008705DC /* ZPRsaCryptor.m */; };
+		279ED70F27B4A703008705DC /* ZPEcCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 279ED70D27B4A703008705DC /* ZPEcCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279ED71027B4A703008705DC /* ZPEcCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED70E27B4A703008705DC /* ZPEcCryptor.m */; };
+		279ED71227B4A9A7008705DC /* ZPCryptoConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 279ED71127B4A9A7008705DC /* ZPCryptoConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279ED71527B4B9FE008705DC /* ZPAesCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 279ED71327B4B9FE008705DC /* ZPAesCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279ED71627B4B9FE008705DC /* ZPAesCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED71427B4B9FE008705DC /* ZPAesCryptor.m */; };
+		279ED71F27B50B78008705DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED71E27B50B78008705DC /* AppDelegate.m */; };
+		279ED72227B50B78008705DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED72127B50B78008705DC /* SceneDelegate.m */; };
+		279ED72527B50B78008705DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED72427B50B78008705DC /* ViewController.m */; };
+		279ED72827B50B78008705DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279ED72627B50B78008705DC /* Main.storyboard */; };
+		279ED72A27B50B79008705DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279ED72927B50B79008705DC /* Assets.xcassets */; };
+		279ED72D27B50B79008705DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279ED72B27B50B79008705DC /* LaunchScreen.storyboard */; };
+		279ED73027B50B79008705DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED72F27B50B79008705DC /* main.m */; };
+		27ECD06D27B396BA0006A0CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD06C27B396BA0006A0CB /* AppDelegate.m */; };
+		27ECD07027B396BA0006A0CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD06F27B396BA0006A0CB /* ViewController.m */; };
+		27ECD07227B396BB0006A0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ECD07127B396BB0006A0CB /* Assets.xcassets */; };
+		27ECD07527B396BB0006A0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27ECD07327B396BB0006A0CB /* Main.storyboard */; };
+		27ECD07727B396BB0006A0CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD07627B396BB0006A0CB /* main.m */; };
+		27ECD07F27B3978A0006A0CB /* ZPMessageDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ECD07D27B3978A0006A0CB /* ZPMessageDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ECD08027B3978A0006A0CB /* ZPMessageDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD07E27B3978A0006A0CB /* ZPMessageDigest.m */; };
+		27ECD08227B3B4430006A0CB /* ZPCryptoWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */; };
+		27ECD08327B3B4430006A0CB /* ZPCryptoWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27ECD08927B3B98B0006A0CB /* ZPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ECD08727B3B98B0006A0CB /* ZPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ECD08A27B3B98B0006A0CB /* ZPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD08827B3B98B0006A0CB /* ZPUtils.m */; };
+		27ECD08D27B3C00C0006A0CB /* ZPKeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ECD08B27B3C00C0006A0CB /* ZPKeyPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ECD08E27B3C00C0006A0CB /* ZPKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD08C27B3C00C0006A0CB /* ZPKeyPair.m */; };
+		27ECD09127B3C1320006A0CB /* ZPRsaKeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ECD08F27B3C1320006A0CB /* ZPRsaKeyPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ECD09227B3C1320006A0CB /* ZPRsaKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD09027B3C1320006A0CB /* ZPRsaKeyPair.m */; };
+		27ECD09527B3C1470006A0CB /* ZPEcKeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ECD09327B3C1470006A0CB /* ZPEcKeyPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ECD09627B3C1470006A0CB /* ZPEcKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD09427B3C1470006A0CB /* ZPEcKeyPair.m */; };
+		27ECD09927B3EE120006A0CB /* ZPCryptoWrapperLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ECD09727B3EE120006A0CB /* ZPCryptoWrapperLog.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27832DE327B3960000E0C6FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27832DCE27B395FF00E0C6FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27832DD627B395FF00E0C6FD;
+			remoteInfo = ZPCryptoWrapper;
+		};
+		27ECD08427B3B4430006A0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27832DCE27B395FF00E0C6FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27832DD627B395FF00E0C6FD;
+			remoteInfo = ZPCryptoWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27ECD08627B3B4430006A0CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27ECD08327B3B4430006A0CB /* ZPCryptoWrapper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZPCryptoWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27832DDA27B395FF00E0C6FD /* ZPCryptoWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPCryptoWrapper.h; sourceTree = "<group>"; };
+		27832DDB27B395FF00E0C6FD /* ZPCryptoWrapper.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ZPCryptoWrapper.docc; sourceTree = "<group>"; };
+		27832DE127B395FF00E0C6FD /* ZPCryptoWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPCryptoWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27832DE627B3960000E0C6FD /* ZPCryptoWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPCryptoWrapperTests.m; sourceTree = "<group>"; };
+		279ED70927B4A6CA008705DC /* ZPRsaCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPRsaCryptor.h; sourceTree = "<group>"; };
+		279ED70A27B4A6CA008705DC /* ZPRsaCryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPRsaCryptor.m; sourceTree = "<group>"; };
+		279ED70D27B4A703008705DC /* ZPEcCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPEcCryptor.h; sourceTree = "<group>"; };
+		279ED70E27B4A703008705DC /* ZPEcCryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPEcCryptor.m; sourceTree = "<group>"; };
+		279ED71127B4A9A7008705DC /* ZPCryptoConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPCryptoConstants.h; sourceTree = "<group>"; };
+		279ED71327B4B9FE008705DC /* ZPAesCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAesCryptor.h; sourceTree = "<group>"; };
+		279ED71427B4B9FE008705DC /* ZPAesCryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAesCryptor.m; sourceTree = "<group>"; };
+		279ED71B27B50B78008705DC /* ZPCryptoExamples-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZPCryptoExamples-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279ED71D27B50B78008705DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		279ED71E27B50B78008705DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		279ED72027B50B78008705DC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		279ED72127B50B78008705DC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		279ED72327B50B78008705DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		279ED72427B50B78008705DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		279ED72727B50B78008705DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		279ED72927B50B79008705DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		279ED72C27B50B79008705DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		279ED72E27B50B79008705DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279ED72F27B50B79008705DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27ECD06927B396BA0006A0CB /* ZPCryptoExamples-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZPCryptoExamples-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27ECD06B27B396BA0006A0CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27ECD06C27B396BA0006A0CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27ECD06E27B396BA0006A0CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27ECD06F27B396BA0006A0CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27ECD07127B396BB0006A0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27ECD07427B396BB0006A0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27ECD07627B396BB0006A0CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27ECD07827B396BB0006A0CB /* ZPCryptoExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZPCryptoExamples.entitlements; sourceTree = "<group>"; };
+		27ECD07D27B3978A0006A0CB /* ZPMessageDigest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMessageDigest.h; sourceTree = "<group>"; };
+		27ECD07E27B3978A0006A0CB /* ZPMessageDigest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMessageDigest.m; sourceTree = "<group>"; };
+		27ECD08727B3B98B0006A0CB /* ZPUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZPUtils.h; path = ZPCryptoWrapper/ZPUtils.h; sourceTree = "<group>"; };
+		27ECD08827B3B98B0006A0CB /* ZPUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZPUtils.m; path = ZPCryptoWrapper/ZPUtils.m; sourceTree = "<group>"; };
+		27ECD08B27B3C00C0006A0CB /* ZPKeyPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPKeyPair.h; sourceTree = "<group>"; };
+		27ECD08C27B3C00C0006A0CB /* ZPKeyPair.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPKeyPair.m; sourceTree = "<group>"; };
+		27ECD08F27B3C1320006A0CB /* ZPRsaKeyPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPRsaKeyPair.h; sourceTree = "<group>"; };
+		27ECD09027B3C1320006A0CB /* ZPRsaKeyPair.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPRsaKeyPair.m; sourceTree = "<group>"; };
+		27ECD09327B3C1470006A0CB /* ZPEcKeyPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPEcKeyPair.h; sourceTree = "<group>"; };
+		27ECD09427B3C1470006A0CB /* ZPEcKeyPair.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPEcKeyPair.m; sourceTree = "<group>"; };
+		27ECD09727B3EE120006A0CB /* ZPCryptoWrapperLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPCryptoWrapperLog.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27832DD427B395FF00E0C6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27832DDE27B395FF00E0C6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27832DE227B3960000E0C6FD /* ZPCryptoWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279ED71827B50B78008705DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECD06627B396BA0006A0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECD08227B3B4430006A0CB /* ZPCryptoWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27832DCD27B395FF00E0C6FD = {
+			isa = PBXGroup;
+			children = (
+				27ECD08727B3B98B0006A0CB /* ZPUtils.h */,
+				27ECD08827B3B98B0006A0CB /* ZPUtils.m */,
+				27832DD927B395FF00E0C6FD /* ZPCryptoWrapper */,
+				27832DE527B3960000E0C6FD /* ZPCryptoWrapperTests */,
+				27ECD06A27B396BA0006A0CB /* ZPCryptoExamples-macOS */,
+				279ED71C27B50B78008705DC /* ZPCryptoExamples-iOS */,
+				27832DD827B395FF00E0C6FD /* Products */,
+				27ECD08127B3B4430006A0CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27832DD827B395FF00E0C6FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */,
+				27832DE127B395FF00E0C6FD /* ZPCryptoWrapperTests.xctest */,
+				27ECD06927B396BA0006A0CB /* ZPCryptoExamples-macOS.app */,
+				279ED71B27B50B78008705DC /* ZPCryptoExamples-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27832DD927B395FF00E0C6FD /* ZPCryptoWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				27832DDA27B395FF00E0C6FD /* ZPCryptoWrapper.h */,
+				27832DDB27B395FF00E0C6FD /* ZPCryptoWrapper.docc */,
+				27ECD09727B3EE120006A0CB /* ZPCryptoWrapperLog.h */,
+				279ED71127B4A9A7008705DC /* ZPCryptoConstants.h */,
+				27ECD07D27B3978A0006A0CB /* ZPMessageDigest.h */,
+				27ECD07E27B3978A0006A0CB /* ZPMessageDigest.m */,
+				27ECD08B27B3C00C0006A0CB /* ZPKeyPair.h */,
+				27ECD08C27B3C00C0006A0CB /* ZPKeyPair.m */,
+				27ECD08F27B3C1320006A0CB /* ZPRsaKeyPair.h */,
+				27ECD09027B3C1320006A0CB /* ZPRsaKeyPair.m */,
+				279ED70927B4A6CA008705DC /* ZPRsaCryptor.h */,
+				279ED70A27B4A6CA008705DC /* ZPRsaCryptor.m */,
+				27ECD09327B3C1470006A0CB /* ZPEcKeyPair.h */,
+				27ECD09427B3C1470006A0CB /* ZPEcKeyPair.m */,
+				279ED70D27B4A703008705DC /* ZPEcCryptor.h */,
+				279ED70E27B4A703008705DC /* ZPEcCryptor.m */,
+				279ED71327B4B9FE008705DC /* ZPAesCryptor.h */,
+				279ED71427B4B9FE008705DC /* ZPAesCryptor.m */,
+			);
+			path = ZPCryptoWrapper;
+			sourceTree = "<group>";
+		};
+		27832DE527B3960000E0C6FD /* ZPCryptoWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				27832DE627B3960000E0C6FD /* ZPCryptoWrapperTests.m */,
+			);
+			path = ZPCryptoWrapperTests;
+			sourceTree = "<group>";
+		};
+		279ED71C27B50B78008705DC /* ZPCryptoExamples-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				279ED71D27B50B78008705DC /* AppDelegate.h */,
+				279ED71E27B50B78008705DC /* AppDelegate.m */,
+				279ED72027B50B78008705DC /* SceneDelegate.h */,
+				279ED72127B50B78008705DC /* SceneDelegate.m */,
+				279ED72327B50B78008705DC /* ViewController.h */,
+				279ED72427B50B78008705DC /* ViewController.m */,
+				279ED72627B50B78008705DC /* Main.storyboard */,
+				279ED72927B50B79008705DC /* Assets.xcassets */,
+				279ED72B27B50B79008705DC /* LaunchScreen.storyboard */,
+				279ED72E27B50B79008705DC /* Info.plist */,
+				279ED72F27B50B79008705DC /* main.m */,
+			);
+			path = "ZPCryptoExamples-iOS";
+			sourceTree = "<group>";
+		};
+		27ECD06A27B396BA0006A0CB /* ZPCryptoExamples-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				27ECD06B27B396BA0006A0CB /* AppDelegate.h */,
+				27ECD06C27B396BA0006A0CB /* AppDelegate.m */,
+				27ECD06E27B396BA0006A0CB /* ViewController.h */,
+				27ECD06F27B396BA0006A0CB /* ViewController.m */,
+				27ECD07127B396BB0006A0CB /* Assets.xcassets */,
+				27ECD07327B396BB0006A0CB /* Main.storyboard */,
+				27ECD07627B396BB0006A0CB /* main.m */,
+				27ECD07827B396BB0006A0CB /* ZPCryptoExamples.entitlements */,
+			);
+			path = "ZPCryptoExamples-macOS";
+			sourceTree = "<group>";
+		};
+		27ECD08127B3B4430006A0CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27832DD227B395FF00E0C6FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279ED71227B4A9A7008705DC /* ZPCryptoConstants.h in Headers */,
+				27832DE827B3960000E0C6FD /* ZPCryptoWrapper.h in Headers */,
+				27ECD08927B3B98B0006A0CB /* ZPUtils.h in Headers */,
+				27ECD08D27B3C00C0006A0CB /* ZPKeyPair.h in Headers */,
+				27ECD09527B3C1470006A0CB /* ZPEcKeyPair.h in Headers */,
+				27ECD09127B3C1320006A0CB /* ZPRsaKeyPair.h in Headers */,
+				279ED70F27B4A703008705DC /* ZPEcCryptor.h in Headers */,
+				279ED70B27B4A6CA008705DC /* ZPRsaCryptor.h in Headers */,
+				279ED71527B4B9FE008705DC /* ZPAesCryptor.h in Headers */,
+				27ECD07F27B3978A0006A0CB /* ZPMessageDigest.h in Headers */,
+				27ECD09927B3EE120006A0CB /* ZPCryptoWrapperLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27832DD627B395FF00E0C6FD /* ZPCryptoWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27832DEB27B3960000E0C6FD /* Build configuration list for PBXNativeTarget "ZPCryptoWrapper" */;
+			buildPhases = (
+				27832DD227B395FF00E0C6FD /* Headers */,
+				27832DD327B395FF00E0C6FD /* Sources */,
+				27832DD427B395FF00E0C6FD /* Frameworks */,
+				27832DD527B395FF00E0C6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPCryptoWrapper;
+			productName = ZPCryptoWrapper;
+			productReference = 27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27832DE027B395FF00E0C6FD /* ZPCryptoWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27832DEE27B3960000E0C6FD /* Build configuration list for PBXNativeTarget "ZPCryptoWrapperTests" */;
+			buildPhases = (
+				27832DDD27B395FF00E0C6FD /* Sources */,
+				27832DDE27B395FF00E0C6FD /* Frameworks */,
+				27832DDF27B395FF00E0C6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27832DE427B3960000E0C6FD /* PBXTargetDependency */,
+			);
+			name = ZPCryptoWrapperTests;
+			productName = ZPCryptoWrapperTests;
+			productReference = 27832DE127B395FF00E0C6FD /* ZPCryptoWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		279ED71A27B50B78008705DC /* ZPCryptoExamples-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279ED73127B50B79008705DC /* Build configuration list for PBXNativeTarget "ZPCryptoExamples-iOS" */;
+			buildPhases = (
+				279ED71727B50B78008705DC /* Sources */,
+				279ED71827B50B78008705DC /* Frameworks */,
+				279ED71927B50B78008705DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZPCryptoExamples-iOS";
+			productName = "ZPCryptoExamples-iOS";
+			productReference = 279ED71B27B50B78008705DC /* ZPCryptoExamples-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27ECD06827B396BA0006A0CB /* ZPCryptoExamples-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27ECD07B27B396BB0006A0CB /* Build configuration list for PBXNativeTarget "ZPCryptoExamples-macOS" */;
+			buildPhases = (
+				27ECD06527B396BA0006A0CB /* Sources */,
+				27ECD06627B396BA0006A0CB /* Frameworks */,
+				27ECD06727B396BA0006A0CB /* Resources */,
+				27ECD08627B3B4430006A0CB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27ECD08527B3B4430006A0CB /* PBXTargetDependency */,
+			);
+			name = "ZPCryptoExamples-macOS";
+			productName = ZPCryptoExamples;
+			productReference = 27ECD06927B396BA0006A0CB /* ZPCryptoExamples-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27832DCE27B395FF00E0C6FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					27832DD627B395FF00E0C6FD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					27832DE027B395FF00E0C6FD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					279ED71A27B50B78008705DC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					27ECD06827B396BA0006A0CB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 27832DD127B395FF00E0C6FD /* Build configuration list for PBXProject "ZPCryptoWrapper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27832DCD27B395FF00E0C6FD;
+			productRefGroup = 27832DD827B395FF00E0C6FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27832DD627B395FF00E0C6FD /* ZPCryptoWrapper */,
+				27832DE027B395FF00E0C6FD /* ZPCryptoWrapperTests */,
+				27ECD06827B396BA0006A0CB /* ZPCryptoExamples-macOS */,
+				279ED71A27B50B78008705DC /* ZPCryptoExamples-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27832DD527B395FF00E0C6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27832DDF27B395FF00E0C6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279ED71927B50B78008705DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279ED72D27B50B79008705DC /* LaunchScreen.storyboard in Resources */,
+				279ED72A27B50B79008705DC /* Assets.xcassets in Resources */,
+				279ED72827B50B78008705DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECD06727B396BA0006A0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECD07227B396BB0006A0CB /* Assets.xcassets in Resources */,
+				27ECD07527B396BB0006A0CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27832DD327B395FF00E0C6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECD08A27B3B98B0006A0CB /* ZPUtils.m in Sources */,
+				27ECD08E27B3C00C0006A0CB /* ZPKeyPair.m in Sources */,
+				27832DDC27B395FF00E0C6FD /* ZPCryptoWrapper.docc in Sources */,
+				279ED70C27B4A6CA008705DC /* ZPRsaCryptor.m in Sources */,
+				27ECD09627B3C1470006A0CB /* ZPEcKeyPair.m in Sources */,
+				279ED71027B4A703008705DC /* ZPEcCryptor.m in Sources */,
+				279ED71627B4B9FE008705DC /* ZPAesCryptor.m in Sources */,
+				27ECD08027B3978A0006A0CB /* ZPMessageDigest.m in Sources */,
+				27ECD09227B3C1320006A0CB /* ZPRsaKeyPair.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27832DDD27B395FF00E0C6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27832DE727B3960000E0C6FD /* ZPCryptoWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279ED71727B50B78008705DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279ED72527B50B78008705DC /* ViewController.m in Sources */,
+				279ED71F27B50B78008705DC /* AppDelegate.m in Sources */,
+				279ED73027B50B79008705DC /* main.m in Sources */,
+				279ED72227B50B78008705DC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ECD06527B396BA0006A0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECD07027B396BA0006A0CB /* ViewController.m in Sources */,
+				27ECD07727B396BB0006A0CB /* main.m in Sources */,
+				27ECD06D27B396BA0006A0CB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27832DE427B3960000E0C6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27832DD627B395FF00E0C6FD /* ZPCryptoWrapper */;
+			targetProxy = 27832DE327B3960000E0C6FD /* PBXContainerItemProxy */;
+		};
+		27ECD08527B3B4430006A0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27832DD627B395FF00E0C6FD /* ZPCryptoWrapper */;
+			targetProxy = 27ECD08427B3B4430006A0CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		279ED72627B50B78008705DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279ED72727B50B78008705DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		279ED72B27B50B79008705DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279ED72C27B50B79008705DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		27ECD07327B396BB0006A0CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27ECD07427B396BB0006A0CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27832DE927B3960000E0C6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27832DEA27B3960000E0C6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27832DEC27B3960000E0C6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		27832DED27B3960000E0C6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		27832DEF27B3960000E0C6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Debug;
+		};
+		27832DF027B3960000E0C6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Release;
+		};
+		279ED73227B50B79008705DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EWCB5SFN3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZPCryptoExamples-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zenpie.ZPCryptoExamples-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279ED73327B50B79008705DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EWCB5SFN3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZPCryptoExamples-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zenpie.ZPCryptoExamples-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27ECD07927B396BB0006A0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZPCryptoExamples/ZPCryptoExamples.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		27ECD07A27B396BB0006A0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZPCryptoExamples/ZPCryptoExamples.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27832DD127B395FF00E0C6FD /* Build configuration list for PBXProject "ZPCryptoWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27832DE927B3960000E0C6FD /* Debug */,
+				27832DEA27B3960000E0C6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27832DEB27B3960000E0C6FD /* Build configuration list for PBXNativeTarget "ZPCryptoWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27832DEC27B3960000E0C6FD /* Debug */,
+				27832DED27B3960000E0C6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27832DEE27B3960000E0C6FD /* Build configuration list for PBXNativeTarget "ZPCryptoWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27832DEF27B3960000E0C6FD /* Debug */,
+				27832DF027B3960000E0C6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279ED73127B50B79008705DC /* Build configuration list for PBXNativeTarget "ZPCryptoExamples-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279ED73227B50B79008705DC /* Debug */,
+				279ED73327B50B79008705DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27ECD07B27B396BB0006A0CB /* Build configuration list for PBXNativeTarget "ZPCryptoExamples-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ECD07927B396BB0006A0CB /* Debug */,
+				27ECD07A27B396BB0006A0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27832DCE27B395FF00E0C6FD /* Project object */;
+}
