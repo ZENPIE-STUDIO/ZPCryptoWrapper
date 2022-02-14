@@ -655,7 +655,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -682,7 +682,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

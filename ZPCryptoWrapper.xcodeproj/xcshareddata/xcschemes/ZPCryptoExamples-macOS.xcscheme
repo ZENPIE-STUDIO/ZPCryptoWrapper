@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "27ECD06827B396BA0006A0CB"
-               BuildableName = "ZPCryptoExamples.app"
+               BuildableName = "ZPCryptoExamples-macOS.app"
                BlueprintName = "ZPCryptoExamples-macOS"
                ReferencedContainer = "container:ZPCryptoWrapper.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "27ECD06827B396BA0006A0CB"
-            BuildableName = "ZPCryptoExamples.app"
+            BuildableName = "ZPCryptoExamples-macOS.app"
             BlueprintName = "ZPCryptoExamples-macOS"
             ReferencedContainer = "container:ZPCryptoWrapper.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "27ECD06827B396BA0006A0CB"
-            BuildableName = "ZPCryptoExamples.app"
+            BuildableName = "ZPCryptoExamples-macOS.app"
             BlueprintName = "ZPCryptoExamples-macOS"
             ReferencedContainer = "container:ZPCryptoWrapper.xcodeproj">
          </BuildableReference>
