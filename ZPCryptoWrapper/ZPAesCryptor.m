@@ -23,7 +23,7 @@ CCCryptorStatus CCCryptorGCMOneshotDecrypt(CCAlgorithm alg, const void  *key,   
                                        void        *dataOut,
                                        const void  *tagIn,  size_t tagLength);
 
-// IV
+//MARK: IV
 const static Byte IV16[16] = {
     (Byte)'z', (Byte)'e', (Byte)'n', (Byte)'p', (Byte)'i', (Byte)'e', (Byte)'.', (Byte)'.',
     (Byte)'s', (Byte)'t', (Byte)'u', (Byte)'d', (Byte)'i', (Byte)'o', (Byte)'.', (Byte)'.'

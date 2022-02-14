@@ -120,9 +120,9 @@
     }
     return YES;
 }
-// ECDH - calculate Shared Secret，目前是指定輸出 32 bytes (For AES)
+
+// ECDH Standard key derivation - compute shared secret using ECDH algorithm without cofactor.
 + (NSData*) sharedSecretForPrivateKey:(SecKeyRef) privateKey PublicKey:(SecKeyRef) publicKey {
-    //const NSInteger kRequestedSize = 32;
     const SecKeyAlgorithm algorithm = kSecKeyAlgorithmECDHKeyExchangeStandard;
     CFErrorRef error = nil;
     CFMutableDictionaryRef params = CFDictionaryCreateMutable(kCFAllocatorDefault, 0, &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
