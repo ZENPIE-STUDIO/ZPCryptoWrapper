@@ -13,7 +13,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    // Do any additional setup after loading the view.
+    // 只是把一些 Unit Test 中的程式碼，搬來這裡執行看看…
     [self testBase64];
     [self testEC];
     [self testAES];

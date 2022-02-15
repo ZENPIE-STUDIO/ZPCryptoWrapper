@@ -9,6 +9,33 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#if TARGET_OS_IPHONE
+//#define SecKeySizes uint32_t
+//#define kSecp256r1 256
+typedef NS_ENUM(uint32_t, SecKeySizes)
+{
+    //kSecDefaultKeySize  = 0,
+
+    // Symmetric Keysizes - default is currently kSecAES128 for AES.
+    //kSec3DES192         = 192,
+    kSecAES128          = 128,
+    kSecAES192          = 192,
+    kSecAES256          = 256,
+
+    // Supported ECC Keys for Suite-B from RFC 4492 section 5.1.1.
+    // default is currently kSecp256r1
+    kSecp192r1          = 192,
+    kSecp256r1          = 256,
+    kSecp384r1          = 384,
+    kSecp521r1          = 521,  // Yes, 521
+
+    // Boundaries for RSA KeySizes - default is currently 2048
+    // RSA keysizes must be multiples of 8
+    //kSecRSAMin          = 1024,
+    //kSecRSAMax          = 4096
+};
+#endif
+
 typedef NS_ENUM(NSInteger, KeyType) {
     KeyTypeUnknow = 0,
     KeyTypeRSA,

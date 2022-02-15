@@ -18,13 +18,6 @@
 		279ED71227B4A9A7008705DC /* ZPCryptoConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 279ED71127B4A9A7008705DC /* ZPCryptoConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279ED71527B4B9FE008705DC /* ZPAesCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 279ED71327B4B9FE008705DC /* ZPAesCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279ED71627B4B9FE008705DC /* ZPAesCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED71427B4B9FE008705DC /* ZPAesCryptor.m */; };
-		279ED71F27B50B78008705DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED71E27B50B78008705DC /* AppDelegate.m */; };
-		279ED72227B50B78008705DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED72127B50B78008705DC /* SceneDelegate.m */; };
-		279ED72527B50B78008705DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED72427B50B78008705DC /* ViewController.m */; };
-		279ED72827B50B78008705DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279ED72627B50B78008705DC /* Main.storyboard */; };
-		279ED72A27B50B79008705DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279ED72927B50B79008705DC /* Assets.xcassets */; };
-		279ED72D27B50B79008705DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279ED72B27B50B79008705DC /* LaunchScreen.storyboard */; };
-		279ED73027B50B79008705DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279ED72F27B50B79008705DC /* main.m */; };
 		27ECD06D27B396BA0006A0CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD06C27B396BA0006A0CB /* AppDelegate.m */; };
 		27ECD07027B396BA0006A0CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ECD06F27B396BA0006A0CB /* ViewController.m */; };
 		27ECD07227B396BB0006A0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ECD07127B396BB0006A0CB /* Assets.xcassets */; };
@@ -89,18 +82,6 @@
 		279ED71127B4A9A7008705DC /* ZPCryptoConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPCryptoConstants.h; sourceTree = "<group>"; };
 		279ED71327B4B9FE008705DC /* ZPAesCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAesCryptor.h; sourceTree = "<group>"; };
 		279ED71427B4B9FE008705DC /* ZPAesCryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAesCryptor.m; sourceTree = "<group>"; };
-		279ED71B27B50B78008705DC /* ZPCryptoExamples-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZPCryptoExamples-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		279ED71D27B50B78008705DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		279ED71E27B50B78008705DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		279ED72027B50B78008705DC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		279ED72127B50B78008705DC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		279ED72327B50B78008705DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		279ED72427B50B78008705DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		279ED72727B50B78008705DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		279ED72927B50B79008705DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		279ED72C27B50B79008705DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		279ED72E27B50B79008705DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279ED72F27B50B79008705DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27ECD06927B396BA0006A0CB /* ZPCryptoExamples-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZPCryptoExamples-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ECD06B27B396BA0006A0CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27ECD06C27B396BA0006A0CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -139,13 +120,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		279ED71827B50B78008705DC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		27ECD06627B396BA0006A0CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,7 +139,6 @@
 				27832DD927B395FF00E0C6FD /* ZPCryptoWrapper */,
 				27832DE527B3960000E0C6FD /* ZPCryptoWrapperTests */,
 				27ECD06A27B396BA0006A0CB /* ZPCryptoExamples-macOS */,
-				279ED71C27B50B78008705DC /* ZPCryptoExamples-iOS */,
 				27832DD827B395FF00E0C6FD /* Products */,
 				27ECD08127B3B4430006A0CB /* Frameworks */,
 			);
@@ -177,7 +150,6 @@
 				27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */,
 				27832DE127B395FF00E0C6FD /* ZPCryptoWrapperTests.xctest */,
 				27ECD06927B396BA0006A0CB /* ZPCryptoExamples-macOS.app */,
-				279ED71B27B50B78008705DC /* ZPCryptoExamples-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,24 +185,6 @@
 				27832DE627B3960000E0C6FD /* ZPCryptoWrapperTests.m */,
 			);
 			path = ZPCryptoWrapperTests;
-			sourceTree = "<group>";
-		};
-		279ED71C27B50B78008705DC /* ZPCryptoExamples-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				279ED71D27B50B78008705DC /* AppDelegate.h */,
-				279ED71E27B50B78008705DC /* AppDelegate.m */,
-				279ED72027B50B78008705DC /* SceneDelegate.h */,
-				279ED72127B50B78008705DC /* SceneDelegate.m */,
-				279ED72327B50B78008705DC /* ViewController.h */,
-				279ED72427B50B78008705DC /* ViewController.m */,
-				279ED72627B50B78008705DC /* Main.storyboard */,
-				279ED72927B50B79008705DC /* Assets.xcassets */,
-				279ED72B27B50B79008705DC /* LaunchScreen.storyboard */,
-				279ED72E27B50B79008705DC /* Info.plist */,
-				279ED72F27B50B79008705DC /* main.m */,
-			);
-			path = "ZPCryptoExamples-iOS";
 			sourceTree = "<group>";
 		};
 		27ECD06A27B396BA0006A0CB /* ZPCryptoExamples-macOS */ = {
@@ -315,23 +269,6 @@
 			productReference = 27832DE127B395FF00E0C6FD /* ZPCryptoWrapperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		279ED71A27B50B78008705DC /* ZPCryptoExamples-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 279ED73127B50B79008705DC /* Build configuration list for PBXNativeTarget "ZPCryptoExamples-iOS" */;
-			buildPhases = (
-				279ED71727B50B78008705DC /* Sources */,
-				279ED71827B50B78008705DC /* Frameworks */,
-				279ED71927B50B78008705DC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ZPCryptoExamples-iOS";
-			productName = "ZPCryptoExamples-iOS";
-			productReference = 279ED71B27B50B78008705DC /* ZPCryptoExamples-iOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 		27ECD06827B396BA0006A0CB /* ZPCryptoExamples-macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27ECD07B27B396BB0006A0CB /* Build configuration list for PBXNativeTarget "ZPCryptoExamples-macOS" */;
@@ -366,9 +303,6 @@
 					27832DE027B395FF00E0C6FD = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					279ED71A27B50B78008705DC = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
 					27ECD06827B396BA0006A0CB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -390,7 +324,6 @@
 				27832DD627B395FF00E0C6FD /* ZPCryptoWrapper */,
 				27832DE027B395FF00E0C6FD /* ZPCryptoWrapperTests */,
 				27ECD06827B396BA0006A0CB /* ZPCryptoExamples-macOS */,
-				279ED71A27B50B78008705DC /* ZPCryptoExamples-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -407,16 +340,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279ED71927B50B78008705DC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279ED72D27B50B79008705DC /* LaunchScreen.storyboard in Resources */,
-				279ED72A27B50B79008705DC /* Assets.xcassets in Resources */,
-				279ED72827B50B78008705DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,17 +379,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		279ED71727B50B78008705DC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279ED72527B50B78008705DC /* ViewController.m in Sources */,
-				279ED71F27B50B78008705DC /* AppDelegate.m in Sources */,
-				279ED73027B50B79008705DC /* main.m in Sources */,
-				279ED72227B50B78008705DC /* SceneDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		27ECD06527B396BA0006A0CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,22 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		279ED72627B50B78008705DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				279ED72727B50B78008705DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		279ED72B27B50B79008705DC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				279ED72C27B50B79008705DC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		27ECD07327B396BB0006A0CB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -659,8 +555,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -686,8 +584,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -714,65 +614,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenpie.ZPCryptoWrapperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-			};
-			name = Release;
-		};
-		279ED73227B50B79008705DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EWCB5SFN3U;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ZPCryptoExamples-iOS/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zenpie.ZPCryptoExamples-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		279ED73327B50B79008705DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EWCB5SFN3U;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ZPCryptoExamples-iOS/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zenpie.ZPCryptoExamples-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -852,15 +693,6 @@
 			buildConfigurations = (
 				27832DEF27B3960000E0C6FD /* Debug */,
 				27832DF027B3960000E0C6FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		279ED73127B50B79008705DC /* Build configuration list for PBXNativeTarget "ZPCryptoExamples-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				279ED73227B50B79008705DC /* Debug */,
-				279ED73327B50B79008705DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
