@@ -18,6 +18,10 @@ typedef NS_ENUM(NSInteger, KeyType) {
 @class ZPRsaKeyPair;
 @class ZPEcKeyPair;
 
+/**
+ *  Key Pair Management.
+ *  金鑰對管理
+ */
 @interface ZPKeyPair : NSObject
 
 @property (nonatomic, readonly) KeyType type;

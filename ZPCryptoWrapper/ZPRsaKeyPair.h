@@ -10,24 +10,38 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ *  Provide RSA Cryptography Key Pair Management.
+ *  提供 RSA 金鑰對管理。
+ *  - Generate RSA Key Pair in Keychain.
+ */
 @interface ZPRsaKeyPair : ZPKeyPair
 
-// gen完會出現在 Keychain 中
+/// Generate RSA Key Pair in Keychain.
+/// @param name Key Pair Label
+/// @param keySizeInBits RSA KeySizes (1024~4096) - default is currently 2048
 + (ZPRsaKeyPair* _Nullable) generateWithName:(NSString* _Nonnull) name KeySize:(SecKeySizes) keySizeInBits;
 
-// 從 PKCS1 的資料建立 Private Key (不會出現在 Keychain中)
+/// Create Private Key from PKCS1 data (not in Keychain)
 + (SecKeyRef _Nullable) createPrivateKeyFromPKCS1:(NSString* _Nonnull) base64 KeySize:(SecKeySizes) keySizeInBits;
+
+/// Export Public Key to Modulus and Exponent.
 + (BOOL) exportPublicKey:(SecKeyRef _Nonnull) publicKey ToModulus:(NSMutableData* _Nonnull) modulus Exponent:(NSMutableData* _Nonnull) exponent;
 - (BOOL) exportPublicModulus:(NSMutableData* _Nonnull) modulus Exponent:(NSMutableData* _Nonnull) exponent;
 
+/// Export DER (ASN.1) Format Public Key
 - (NSData* _Nullable) exportAsn1PublicKey;
+
+/// Export DER (ASN.1) Format Private Key
 + (NSDictionary* _Nullable) exportAsn1PrivateKey:(SecKeyRef _Nonnull) privateKey;
 
 // 用匯出的 Asn1 Public Key 建立 Public Key
 + (SecKeyRef _Nullable) createPublicKeyFromAsn1PublicKey:(NSData* _Nonnull) dataPublicKey;
-// 從 Modulus, Exponent 建立 Public Key (不會出現在 Keychain中)
+
+/// Create public key from Modulus, Exponent.
 + (SecKeyRef _Nullable) createPublicKeyFromModulus:(NSData* _Nonnull) modulus Exponent:(NSData* _Nonnull) exponent;
-// 用匯出的 Asn1 Public Key 得到 Modulus, Exponent
+
+// Decode Asn1 Public Key，取得 Modulus, Exponent
 + (BOOL) decodeAsn1PublicKey:(NSData* _Nonnull) dataPublicKey ToModulus:(NSMutableData* _Nonnull) modulus Exponent:(NSMutableData* _Nonnull) exponent;
 
 @end

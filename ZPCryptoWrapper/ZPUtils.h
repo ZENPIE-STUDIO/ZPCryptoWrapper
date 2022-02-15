@@ -9,6 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ *  集合常用的一些 function
+ *  - Hex String
+ *  - Base64
+ */
 @interface ZPUtils : NSObject
 // NSString(Utf8) <==> NSData
 + (NSData*) dataFromUtf8String:(NSString*) str;

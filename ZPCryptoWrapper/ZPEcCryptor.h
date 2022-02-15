@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- *  Provide Elliptic Curve cryptography function and key management.
+ *  Provide Elliptic Curve Cryptography Function and Key Management.
  *  提供 EC 加解密功能 及 金鑰管理。
  *  - Generate EC Key Pair in Keychain.
  *  - ECDSA - Sign / Verify Signature

@@ -11,6 +11,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ *  Provide RSA Cryptography Function and Key Management.
+ *  提供 RSA 金鑰對管理。
+ *  - Generate RSA Key Pair in Keychain.
+ *  - PKCS1 & OAEP Encrypt / Decrypt
+ *  - Sign / Verify Signature
+ */
 @interface ZPRsaCryptor : NSObject
 
 // PKCS1 : plainData 沒有限制 length，內部會自行切塊
