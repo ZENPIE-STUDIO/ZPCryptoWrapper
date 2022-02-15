@@ -1,29 +1,32 @@
 # ZPCryptoWrapper
+
+
+### Description
+
 CommonCrypto wrapper for ObjC, macOS
 
+整理近年開發macOS軟體時，用到的加解密功能。都是呼叫 Apple 官方的 CommonCrypto，主要是包裝成自己方便使用的介面。
 
-
-### Requirements
+#### Requirements
 
 - macOS 10.13 or higher
 - ARC enabled
+- (TODO) iOS
 
 
 
-### Overview
+### Features
 
-
-
-### Message Digest (ZPMessageDigest)
+#### Message Digest (ZPMessageDigest)
 
 - SHA512, SHA384, SHA256, SHA1
 - MD5
 
 
 
-### AES encryption (ZPAesCryptor)
+#### AES Encryption (ZPAesCryptor)
 
-- Provide AES encryption and decryption function and key management. (提供 AES 加解密功能 及 金鑰管理。)
+- Provide AES encryption and decryption function and key management. 
 - Generate AES Key to NSData (bytes array).
 - Generate AES Key in Keychain.
 
@@ -33,8 +36,24 @@ CommonCrypto wrapper for ObjC, macOS
 
 
 
-### Elliptic Curve cryptography (ZPEcKeyPair & ZPEcCryptor)
+#### Elliptic Curve Cryptography (ZPEcKeyPair & ZPEcCryptor)
 
 - Generate EC Key Pair in Keychain.
 - ECDSA - Sign / Verify Signature
 - ECDH
+
+
+
+#### RSA Cryptography (ZPRsaKeyPair & ZPRsaCryptor)
+
+- Generate RSA Key Pair in Keychain.
+
+- PKCS1 & OAEP Encrypt / Decrypt
+
+- Sign / Verify Signature
+
+
+
+## License
+
+**ZPCryptoWrapper** is available under the MIT license. See the [LICENSE](LICENSE) file for more info.  
