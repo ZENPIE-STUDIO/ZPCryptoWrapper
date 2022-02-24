@@ -5,7 +5,7 @@
 
 CommonCrypto wrapper for ObjC, macOS
 
-整理近年開發macOS軟體時，用到的加解密功能。都是呼叫 Apple 官方的 CommonCrypto，主要是包裝成自己方便使用的介面。
+近年開發macOS軟體時，常用到的加解密功能，都是呼叫 Apple 官方的 CommonCrypto。
 
 #### Requirements
 
