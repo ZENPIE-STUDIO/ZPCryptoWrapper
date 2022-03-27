@@ -54,6 +54,12 @@ CommonCrypto wrapper for ObjC, macOS
 
 
 
-## License
+### License
 
 **ZPCryptoWrapper** is available under the MIT license. See the [LICENSE](LICENSE) file for more info.  
+
+
+
+### Author
+
+- 花瀅智（[Eddie Hua](https://www.linkedin.com/in/eddie-hua-856b2538/)）
