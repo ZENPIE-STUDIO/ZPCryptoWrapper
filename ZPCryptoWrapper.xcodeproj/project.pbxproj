@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27832DDC27B395FF00E0C6FD /* ZPCryptoWrapper.docc in Sources */ = {isa = PBXBuildFile; fileRef = 27832DDB27B395FF00E0C6FD /* ZPCryptoWrapper.docc */; };
 		27832DE227B3960000E0C6FD /* ZPCryptoWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */; };
 		27832DE727B3960000E0C6FD /* ZPCryptoWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27832DE627B3960000E0C6FD /* ZPCryptoWrapperTests.m */; };
 		27832DE827B3960000E0C6FD /* ZPCryptoWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 27832DDA27B395FF00E0C6FD /* ZPCryptoWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -72,7 +71,6 @@
 /* Begin PBXFileReference section */
 		27832DD727B395FF00E0C6FD /* ZPCryptoWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZPCryptoWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27832DDA27B395FF00E0C6FD /* ZPCryptoWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPCryptoWrapper.h; sourceTree = "<group>"; };
-		27832DDB27B395FF00E0C6FD /* ZPCryptoWrapper.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ZPCryptoWrapper.docc; sourceTree = "<group>"; };
 		27832DE127B395FF00E0C6FD /* ZPCryptoWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPCryptoWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27832DE627B3960000E0C6FD /* ZPCryptoWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPCryptoWrapperTests.m; sourceTree = "<group>"; };
 		279ED70927B4A6CA008705DC /* ZPRsaCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPRsaCryptor.h; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				27832DDA27B395FF00E0C6FD /* ZPCryptoWrapper.h */,
-				27832DDB27B395FF00E0C6FD /* ZPCryptoWrapper.docc */,
 				27ECD09727B3EE120006A0CB /* ZPCryptoWrapperLog.h */,
 				279ED71127B4A9A7008705DC /* ZPCryptoConstants.h */,
 				27ECD07D27B3978A0006A0CB /* ZPMessageDigest.h */,
@@ -322,8 +319,8 @@
 			projectRoot = "";
 			targets = (
 				27832DD627B395FF00E0C6FD /* ZPCryptoWrapper */,
-				27832DE027B395FF00E0C6FD /* ZPCryptoWrapperTests */,
 				27ECD06827B396BA0006A0CB /* ZPCryptoExamples-macOS */,
+				27832DE027B395FF00E0C6FD /* ZPCryptoWrapperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -361,7 +358,6 @@
 			files = (
 				27ECD08A27B3B98B0006A0CB /* ZPUtils.m in Sources */,
 				27ECD08E27B3C00C0006A0CB /* ZPKeyPair.m in Sources */,
-				27832DDC27B395FF00E0C6FD /* ZPCryptoWrapper.docc in Sources */,
 				279ED70C27B4A6CA008705DC /* ZPRsaCryptor.m in Sources */,
 				27ECD09627B3C1470006A0CB /* ZPEcKeyPair.m in Sources */,
 				279ED71027B4A703008705DC /* ZPEcCryptor.m in Sources */,
