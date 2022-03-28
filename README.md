@@ -11,7 +11,6 @@ CommonCrypto wrapper for ObjC, macOS
 
 - macOS 10.13 or higher
 - ARC enabled
-- (TODO) iOS
 
 
 
